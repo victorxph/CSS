@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url('fonts/DejaVuSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+p.odd{
+    font-family: 'DejaVu Sans', sans-serif;
+    background-color: #FFA7A7;
+}
+
+p#two{
+    color: blue;
+    font-size: 36px;
+    font-family: 'DejaVu Sans';
+}
+
+p#three{
+    font-size: 24px;
+}
+
+p#four{
+    background-color: #80FF80;
+    font-size: 24px;
+    font-weight: bold;
+}
