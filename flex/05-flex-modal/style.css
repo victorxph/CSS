@@ -73,8 +73,25 @@ button.cancel {
 .modal{
     padding: 16px;
     display: flex;
-    flex-direction: column;
     gap: 16px;
+    flex: 0 0 480px;
+}
+
+.icon{
+    flex: 0 0 auto;
+    /* margin: 16px 0px 16px 16px; */
+}
+
+.not-icon {
+    /* padding: 16px 16px 0px 0px; */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;            
+}
+
+.header {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .top{
